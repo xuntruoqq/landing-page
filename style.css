@@ -3,27 +3,28 @@ body{
     display: flex;
     flex-direction: column;
     background-color: antiquewhite;
+    margin: 0;
 }
 
 ul{
     list-style-type: none;
     display: flex;
-    gap: 10px;
+    gap: 30px;
 }
 
 
 a{
     text-decoration: none;
-
+    color:#F9FAF8;
 }
 
-
+/*header*/
 .header{
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
-    padding: 10px;
-    
+    padding: 20px 50px;
+           
 }
 
 .logo{
@@ -36,4 +37,54 @@ a{
 
 .landing{
     display: flex;
+    background-color: #1F2937;
+    padding: 40px 50px;
+    height: 300px;
+    justify-content: space-between;
 }
+
+.landing-left{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+button{
+    width: 150px;
+    height: auto;
+    border-radius: 18px;
+    padding: 10px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.landing-text{
+    color:#F9FAF8;
+}
+
+.title{  
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.landing-right{
+    margin-right: 30px;
+}
+
+img{
+    border-radius: 10px;
+    border: 2px solid #F9FAF8;
+    max-height: 250px;
+    width: 500px;
+}
+
+/*Next part*/
+
+
+
+
+
+
