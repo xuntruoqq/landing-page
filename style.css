@@ -2,7 +2,7 @@ body{
     font-family: "Helvetica";
     display: flex;
     flex-direction: column;
-    background-color: antiquewhite;
+    background-color: whitesmoke;
     margin: 0;
 }
 
@@ -19,7 +19,7 @@ a{
 }
 
 /*header*/
-.header{
+.header, .footer{
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
@@ -60,7 +60,7 @@ button{
     font-weight: 600;
 
 }
-.landing-text{
+.landing-text, .footer-text{
     color:#F9FAF8;
 }
 
@@ -87,9 +87,60 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
+}
+.page-1-header{
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+    margin-bottom: 20px;
 }
 
+.card-collection{
+    display: flex;
+    gap: 60px;
+    padding: 10px;
+    
+}
 
+.card-collection  img{
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
 
+.text{
+    text-align: center;
+    display: flex;
+    
+}
 
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 170px;
+    
+}
 
+.page-2{
+    background-color: #e5e7eb;
+    display:flex;
+    padding: 80px;
+    flex-direction: column;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.author{
+    display: flex;
+    justify-content:flex-end;
+}
