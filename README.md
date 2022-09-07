@@ -1,1 +1,1 @@
-# landing-page
+This is a demo landing page made with basic CSS and HTML
